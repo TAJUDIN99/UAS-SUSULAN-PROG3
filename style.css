@@ -1,0 +1,104 @@
+body{
+	background: url(ajud.jpeg);
+	font-size:16px
+	color:#444;
+	font-family: sans-serif;
+}
+
+
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+
+
+.tablex {
+    font-family: sans-serif;
+    color: black;
+	border-collapse: collapse;
+}
+
+.tablex, th, td {
+    border: 1px solid #999;
+    padding: 8px 20px;
+}
+
+input[type=text]{
+	width: 320px;
+  padding: 5px 15px;
+  margin: 8px 0;
+}
+input[type=number]{
+	width: 320px;
+  padding: 5px 15px;
+  margin: 8px 0;
+}
+
+input[type=submit]{
+	width: 20%;
+	padding: 5px 15px;
+	margin-left: 45%;
+	margin-top: 20px;
+}
+/*header*/
+header{
+	background-color: transparent;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+
+/*menu navigasi*/
+.menu{
+	background-color: transparent;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+
+
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+
+div.menu ul li a {
+	display:block;	
+	padding:0 5px;
+	text-decoration:none;
+	color:black;
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+
+
+div.badan{
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
